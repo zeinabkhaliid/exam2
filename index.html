@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body class="bg-[#0D0D0D] text-white" style="overflow: hidden;">
+    <div class="loading-screen flex fixed top-0 bottom-0 left-0 right-0 bg-black justify-center items-center">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <nav class="side-nav flex min-h-screen fixed top-0">
+        <div class="navlinks bg-[#0D0D0D] text-white flex flex-col justify-between p-6  min-h-screen">
+            <div class="links">
+                <ul class="list-none overflow-hidden">
+                    <li class="search py-2 relative cursor-pointer">Search</li>
+                    <li class="Categories py-2 relative cursor-pointer">Categories</li>
+                    <li class="area py-2 relative cursor-pointer">Area</li>
+                    <li class=" Ingredients py-2 relative cursor-pointer">Ingredients</li>
+                    <li class="ContactUs py-2 relative cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer">
+                    <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" bg-white text-black flex flex-col justify-between py-6 px-2 text-center ">
+            <img src="imgs/logo.png" class="w-[50px]" alt="yummy logo">
+            <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+            <div>
+                <i class="fa-solid fa-globe" style="display: block;"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="container w-3/4 m-auto grid md:gap-3 md:grid-cols-4  lg:gap-4 lg:grid-cols-4 " id="searchContainer">
+
+    </div>
+
+    <div class=" min-h-screen relative">
+        <div class="inner-loading-screen top-0 left-0 right-0 bottom-0 justify-center items-center absolute flex "
+            style="display: none;">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+
+
+        <div class="container  md:w-[88%] sm:w-[80%]  mx-auto">
+
+            <div  class=" min-h-screen grid lg:grid-cols-12 md:grid-cols-12  py-12 gap-6 " id="rowData">
+
+
+
+            </div>
+        </div>
+        
+
+    </div>
+ 
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
